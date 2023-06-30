@@ -58,3 +58,7 @@
 .banner__Section--Aside > div {
   padding: 2rem;
 }
+
+.aside__Title {
+  padding-bottom: 10px;
+}
