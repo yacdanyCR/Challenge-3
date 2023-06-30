@@ -25,3 +25,10 @@
 .cardInfo > h3 {
   padding-bottom: 1rem;
 }
+
+@media (max-width: 768px) {
+  .top__Section--Container {
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+}
