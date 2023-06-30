@@ -1,0 +1,27 @@
+.top__Section--Container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.cardContainer {
+  display: flex;
+  align-items: flex-start;
+  width: 400px;
+}
+
+.cardInfo {
+  margin-left: 1rem;
+}
+.img > img {
+  height: 150px;
+}
+
+.cardInfo > h2 {
+  padding-bottom: 1rem;
+  color: var(--Grayish-blue);
+  font-size: 40px;
+}
+.cardInfo > h3 {
+  padding-bottom: 1rem;
+}
