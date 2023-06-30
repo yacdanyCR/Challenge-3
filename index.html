@@ -4,28 +4,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/navBar/style.css">
   <title>Yacdany | News homepage</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
+  <header>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <div class="logo"></div>
 
-  Home
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+
+          <li><a href="/">Home</a></li>
+          <li><a href="/">New</a></li>
+          <li><a href="/">Popular</a></li>
+          <li><a href="/">Trending</a></li>
+          <li><a href="/">Categoriess</a></li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+
+    </section>
+  </main>
+  <!-- Home
   New
   Popular
   Trending
@@ -65,7 +81,7 @@
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 
 </html>
