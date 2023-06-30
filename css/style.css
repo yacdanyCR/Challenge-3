@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@800&family=Roboto:ital,wght@0,100;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@800&family=Roboto:ital,wght@0,100;0,500;1,300;1,900&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Epilogue", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 :root {
@@ -26,4 +26,8 @@ li {
 
 p {
   font-size: 18px;
+}
+
+br {
+  color: white;
 }
